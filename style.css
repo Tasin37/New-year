@@ -107,3 +107,32 @@ ul li:before {
     color: #737272;
     margin-top: 5px;
 }
+
+.overlap{
+    background-image: url(../New-year/images/gradient2.png) , url(../New-year/images/watch.png);
+    margin-bottom: 100px;
+}
+
+.over-text-btn{
+    max-width: 460px;
+    padding: 40px 0 55px 50px;
+    margin-top: 0;
+}
+
+.over-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.over-btn{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #F15B22;
+    padding: 20px 37px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+}
