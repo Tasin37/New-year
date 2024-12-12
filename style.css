@@ -110,7 +110,8 @@ ul li:before {
 
 .overlap{
     background-image: url(../New-year/images/gradient2.png) , url(../New-year/images/watch.png);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+    background-repeat: no-repeat;
 }
 
 .over-text-btn{
@@ -135,4 +136,84 @@ ul li:before {
     font-weight: 600;
     font-size: 20px;
     margin-top: 15px;
+}
+
+footer{
+    background-color: #151414;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-col1{
+    max-width: 485px;
+    padding: 100px 0 100px 220px;
+    width: 50%;
+}
+
+.footer-col1-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-col1-desc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #737272;
+}
+.mail{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #737272;
+}
+.phone{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #737272;
+}
+
+.social-media{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-col2{
+    max-width: 325px;
+    padding: 100px 0 100px 200px;
+    width: 50%;
+}
+
+.footer-col2-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputs input{
+    display: block;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #151414;
+    border: 2px solid white;
+    width: 280px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+.subscribe-btn{
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #F15B22;
+    padding: 20px 37px;
+    font-weight: 600;
+    font-size: 20px;
 }
